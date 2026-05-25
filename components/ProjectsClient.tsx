@@ -43,6 +43,14 @@ const SAMPLE: Project[] = [
     link: "https://github.com/luciantong/mapping-toronto-for-gtm",
     date: "2025",
   },
+    {
+    id: "5",
+    title: "Alphabet Inc. Equity Research Report",
+    description: "DCF analysis of Alphabet Inc. stock.",
+    tags: [ "Financial Modelling", "DCF", "Equity Research", "Excel"],
+    link: "https://github.com/luciantong/mapping-toronto-for-gtm",
+    date: "2025",
+  },
 ];
 
 const TAG_COLORS: Record<string, { bg: string; text: string }> = {

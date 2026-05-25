@@ -1,14 +1,14 @@
 "use client";
 import { useState } from "react";
 
-export default function InterestsClient() {
+export default function HobbiesClient() {
   const [scLoaded, setScLoaded] = useState(false);
 
   return (
     <div style={{ paddingTop: "72px", paddingBottom: "80px" }}>
 
       <h1 style={{ fontSize: "13px", color: "var(--muted)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "56px", fontWeight: 500 }}>
-        Interests
+        Hobbies
       </h1>
 
       {/* Music */}
@@ -37,7 +37,6 @@ export default function InterestsClient() {
           />
         </div>
 
-        {/* FIXED: Added the missing <a tag here */}
         <a
           href="https://soundcloud.com/luciant-10008123"
           target="_blank"
@@ -48,10 +47,10 @@ export default function InterestsClient() {
         </a>
       </section>
 
-      {/* Interests */}
+      {/* Hobbies */}
       <section>
         <div style={{ display: "flex", alignItems: "baseline", gap: "12px", marginBottom: "6px" }}>
-          <h2 style={{ fontSize: "20px", fontWeight: 600, color: "var(--text)" }}>Interests</h2>
+          <h2 style={{ fontSize: "20px", fontWeight: 600, color: "var(--text)" }}>Hobbies</h2>
         </div>
         <p style={{ fontSize: "13px", color: "var(--muted)", lineHeight: 1.8, marginBottom: "28px", maxWidth: "480px" }}>
           Things I spend time on outside of work.
