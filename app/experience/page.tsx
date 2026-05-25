@@ -13,6 +13,18 @@ const jobs = [
     ],
   },
   {
+    company: "University of Toronto — School of Cities",
+    role: "Data Mapping Research Assistant",
+    location: "Toronto, ON",
+    period: "May 2026 - Present",
+    type: "Current",
+    bullets: [
+      "Mapped urban transit and land use datasets to ontological frameworks (OWL/RDF), enabling semantic interoperability across heterogeneous data sources",
+      "Designed ontology-driven data pipelines to structure, validate, and harmonize geospatial datasets for a public research dataset",
+      "Maintained data libraries and processing documentation to support reproducible analytical pipelines",
+    ],
+  },
+  {
     company: "Locoround",
     role: "Strategy and Data Analysis Intern",
     location: "Toronto, ON",
@@ -39,25 +51,13 @@ const jobs = [
   {
     company: "Kenswick CPA Ltd.",
     role: "Audit and Assurance Intern",
-    location: "Hong Kong",
+    location: "Hong Hong",
     period: "May 2024 - July 2024",
     type: "",
     bullets: [
       "Assisted in audit engagements including working paper preparation and reconciliation of financial statements",
       "Performed financial analysis and vouching to verify accuracy of reported figures",
       "Supported senior auditors in identifying discrepancies and assessing internal controls",
-    ],
-  },
-  {
-    company: "University of Toronto — School of Cities",
-    role: "Data Mapping Research Assistant",
-    location: "Toronto, ON",
-    period: "May 2026 - Present",
-    type: "Current",
-    bullets: [
-      "Mapped urban transit and land use datasets to ontological frameworks (OWL/RDF), enabling semantic interoperability across heterogeneous data sources",
-      "Designed ontology-driven data pipelines to structure, validate, and harmonize geospatial datasets for a public research dataset",
-      "Maintained data libraries and processing documentation to support reproducible analytical pipelines",
     ],
   },
 ];
@@ -133,6 +133,30 @@ export default function Experience() {
           </div>
         </div>
       </div>
+
+      {/* Resume download */}
+      <div style={{ marginTop: 56, paddingTop: 32, borderTop: "1px solid var(--border)", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 16 }}>
+        <div>
+          <p style={{ fontSize: 14, fontWeight: 600, color: "var(--text)", marginBottom: 4 }}>Resume</p>
+          <p style={{ fontSize: 12, color: "var(--muted)" }}>Last updated May 2026</p>
+        </div>
+        
+        {/* FIXED: Re-added the missing open tag here */}
+        <a
+          href="/resume.pdf"
+          download="Lucian_Tong_Resume.pdf"
+          style={{
+            display: "inline-flex", alignItems: "center", gap: 8,
+            padding: "10px 20px",
+            background: "var(--accent)", color: "#0d0d0d",
+            borderRadius: "6px", fontSize: 13, fontWeight: 600,
+            letterSpacing: "0.02em", textDecoration: "none",
+          }}
+        >
+          ↓ Download CV
+        </a>
+      </div>
+
     </div>
   );
 }
