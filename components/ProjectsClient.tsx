@@ -48,7 +48,7 @@ const SAMPLE: Project[] = [
     title: "Alphabet Inc. Equity Research Report",
     description: "DCF analysis of Alphabet Inc. stock.",
     tags: [ "Financial Modelling", "DCF", "Equity Research", "Excel"],
-    link: "https://github.com/luciantong/mapping-toronto-for-gtm",
+    link: "https://docs.google.com/document/d/1H0Huz9PVMlVtCKDeNGeEOMxAo4tpC_ETatIlXO4vTzY/edit?usp=sharing",
     date: "2025",
   },
 ];
