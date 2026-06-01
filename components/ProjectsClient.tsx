@@ -24,7 +24,7 @@ const SAMPLE: Project[] = [
     title: "MAGI Supercomputer - UI Inspired by Neon Genesis Evangelion",
     description: "Interactive UI for MAGI, a 'supercomputer' that tells you facts about the best anime in the world.",
     tags: [ "HTML", "JavaScript", "CSS", "Anime"],
-    link: "https://magi-supercomputer.vercel.app/",
+    link: "luciantong.github.io/magi-supercomputer/",
     date: "2026",
   },
   {
