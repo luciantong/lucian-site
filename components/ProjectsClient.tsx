@@ -16,7 +16,7 @@ const SAMPLE: Project[] = [
     title: "UTTRI Transit Data Challenge - ForeTransit",
     description: "Transit forecasting application with machine learning algorithms XGBoost, and academic backing from Chen et. al. A 'weather forecast' for Toronto transit, providing actionable insights for commuters and transit planners.",
     tags: ["Python", "Pandas", "XGBoost", "GTFS-Data", "Datathon", "Exploratory Data Analysis"],
-    link: "https://github.com/luciantong/foretransit", //
+    link: "http://foretransit.vercel.app", //
     date: "2026",
   },
   {
@@ -24,7 +24,7 @@ const SAMPLE: Project[] = [
     title: "MAGI Supercomputer - UI Inspired by Neon Genesis Evangelion",
     description: "Interactive UI for MAGI, a 'supercomputer' that tells you facts about the best anime in the world.",
     tags: [ "HTML", "JavaScript", "CSS", "Anime"],
-    link: "https://github.com/luciantong/magi-supercomputer/",
+    link: "https://magi-supercomputer.vercel.app/",
     date: "2026",
   },
   {
